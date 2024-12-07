@@ -266,7 +266,7 @@ export const seedData = async () => {
         date: new Date(),
       },
       {
-        leadId: leads[1].id,
+        leadId: leads[0].id,
         interactionType: InteractionType.INTEREST_COURSE,
         courseId: courses[1].id,
         coursePurchased: null,
@@ -276,7 +276,7 @@ export const seedData = async () => {
       {
         leadId: leads[2].id,
         interactionType: InteractionType.INTEREST_COURSE,
-        courseId: courses[2].id,
+        courseId: courses[1].id,
         coursePurchased: null,
         score: InteractionScore.INTEREST_COURSE,
         date: new Date(),
@@ -284,7 +284,7 @@ export const seedData = async () => {
       {
         leadId: leads[3].id,
         interactionType: InteractionType.INTEREST_COURSE,
-        courseId: courses[3].id,
+        courseId: courses[2].id,
         coursePurchased: null,
         score: InteractionScore.INTEREST_COURSE,
         date: new Date(),
